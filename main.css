@@ -1,0 +1,293 @@
+.grid {} body {
+    font-family: "Lato", sans-serif;
+    color: #000000;
+    font-weight: 500;
+    background: url('image/iphone.jpg');
+}
+.bgimage1 {
+    background: url('image/images.jpg');
+    background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -webkit-background-size: cover;
+}
+.row {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    height: auto;
+}
+.col-1 {
+    width: 8.33%;
+}
+.col-2 {
+    width: 16.66%;
+}
+.col-3 {
+    width: 25%;
+}
+.col-4 {
+    width: 32.33%;
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+}
+.col-6 {
+    width: 50%;
+}
+.col-12 {
+    width: 100%;
+}
+img {
+    width: 100%;
+    height: auto;
+    max-height: 450px;
+    position: relative;
+}
+@media only screen and (max-width: 413px) {
+    h1 {
+        font-size: 25px;
+    }
+    h2 {
+        font-size: 17px;
+    }
+    h4 {
+        font-size: 13px;
+    }
+    h3 {
+        font-size: 17px;
+    }
+    body {
+        font-size: 10px;
+    }
+    hr {
+        width: 100%;
+    }
+    .display {
+        display: none;
+    }
+    .border {
+        text-align: justify;
+    }
+    .col-4 {
+        width: 100%;
+        overflow: hidden;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+@media only screen and (min-width: 414px) and (max-width: 887px) {
+    h1 {
+        font-size: 40px;
+    }
+    h2 {
+        font-size: 20px;
+    }
+    h4 {
+        font-size: 15px;
+    }
+    h3 {
+        font-size: 25px;
+    }
+    body {
+        font-size: 12px;
+    }
+    .border {
+        text-align: justify;
+        padding: 10px;
+    }
+}
+@media only screen and (min-width: 888px) {
+    h1 {
+        font-size: 80px;
+    }
+    h2 {
+        font-size: 25px;
+    }
+    h4 {
+        font-size: 20px;
+    }
+    h3 {
+        font-size: 30px;
+    }
+    body {} .border {
+        margin-left: 100px;
+        margin-right: 100px;
+        text-align: justify;
+        padding: 20px;
+    }
+    .border1 {
+        margin-left: 100px;
+        margin-right: 100px;
+        text-align: justify;
+        padding: 20px;
+        border-color: #f7f7f7;
+    }
+    .text-size {
+        font-size: 20px;
+    }
+}
+h1 {
+    margin: 0px;
+    font-weight: 200;
+    color: #2d3c49;
+}
+.fntw {
+    font-weight: 500;
+}
+h4 {
+    margin: 0px;
+    font-weight: 400;
+    color: #2d3c49;
+}
+hr {
+    height: 2px;
+    background-color: #2d3c49;
+    width: 70%;
+}
+.text {
+    position: absolute;
+    top: 200px;
+    left: 0;
+    width: 100%;
+}
+.logo {
+    max-width: 100px;
+    max-height: 100px;
+    width: 100%;
+    height: auto;
+    display: block;
+    margin-top: 15px;
+}
+h2 {
+    font-weight: 400;
+    color: #bcbbbb;
+}
+h3 {
+    margin: 0px;
+    font-weight: 400;
+    color: #2d3c49;
+    text-align: center;
+}
+a {
+    color: #2d3c49;
+}
+.image {
+    width: 100%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+.align {
+    text-align: right;
+}
+.imgrec1 {
+    max-width: 150px;
+    max-height: 150px;
+}
+#div1 {
+    background: url(phone.jpg);
+    background-size: 100px 80px;
+    background-repeat: no-repeat;
+}
+.bgcolor {
+    background-color: #E1F5FE;
+}
+.bgcolor1 {
+    background-color: #a19cca;
+    color: white;
+}
+.div1 {
+    -webkit-animation-direction: alternate;
+    animation-direction: alternate;
+}
+.img1 {
+    animation-duration: 3s;
+    animation-name: slidein;
+}
+@keyframes slidein {
+    from {
+        margin-left: 100%;
+        width: 300%;
+    }
+    to {
+        margin-left: 0%;
+        width: 100%;
+    }
+}
+.cssdisplay {
+    background-color: #9c9999;
+    color: #ffffff;
+    font-family: verdana;
+    font-size: 14px;
+    text-align: justify;
+    box-shadow: 3px 7px 4px #5D7380;
+    max-width: 300px;
+    max-height: 300px;
+}
+.btn {
+    background: #3498db;
+    background-image: -webkit-linear-gradient(top, #81D4FA, #81D4FA);
+    background-image: -moz-linear-gradient(top, #81D4FA, #81D4FA);
+    background-image: -ms-linear-gradient(top, #81D4FA, #81D4FA);
+    background-image: -o-linear-gradient(top, #81D4FA, #81D4FA);
+    background-image: linear-gradient(to bottom, #81D4FA, #81D4FA);
+    -webkit-border-radius: 15;
+    -moz-border-radius: 15;
+    border-radius: 15px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    border: solid #fcfcfc 3px;
+    text-decoration: none;
+}
+.btn:hover {
+    background-image: -webkit-linear-gradient(top, #ffffff, #ffffff);
+    background-image: -moz-linear-gradient(top, #ffffff, #ffffff);
+    background-image: -ms-linear-gradient(top, #ffffff, #ffffff);
+    background-image: -o-linear-gradient(top, #ffffff, #ffffff);
+    background-image: linear-gradient(to bottom, #ffffff, #ffffff);
+    text-decoration: none;
+    color: black;
+}
+.btn1 {
+    background: #3498db;
+    background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+    background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+    background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+    background-image: -o-linear-gradient(top, #3498db, #2980b9);
+    background-image: linear-gradient(to bottom, #3498db, #2980b9);
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 25px;
+    padding-left: 20%;
+    padding-right: 20%;
+    text-decoration: none;
+    width: 50%;
+}
+.btn1:hover {
+    background: #3cb0fd;
+    background-image: -webkit-linear-gradient(top, #ffffff, #ffffff);
+    background-image: -moz-linear-gradient(top, #ffffff, #ffffff);
+    background-image: -ms-linear-gradient(top, #ffffff, #ffffff);
+    background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+    text-decoration: none;
+}
+p {
+    line-height: 200%;
+}
+.border-color {
+    border-color: #f7f7f7;
+}
+.div2 {
+    padding-top: 5%;
+    padding-bottom: 5%;
+    background-color: #81D4FA;
+}
